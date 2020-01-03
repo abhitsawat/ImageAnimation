@@ -1,0 +1,25 @@
+<?ConstraintLayoutxml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+
+    <ImageSwitcher
+        android:id="@+id/imageSwiter"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button1" />
+</LinearLayout>
